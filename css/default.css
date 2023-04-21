@@ -1,0 +1,206 @@
+h1, h2 {
+  color: white;
+  font-family: Cormorant, serif;
+}
+
+p {
+  margin: 0;
+  font-family: Cormorant, serif;
+}
+
+i {
+  font-size: 2.5rem;
+}
+
+.bg-hero-image {
+  background: linear-gradient(to bottom, black, grey);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.red-mark {
+  background-color: #FF0033;
+  padding: 0.5rem 1rem;
+}
+
+.font-sans {
+  font: sans-serif;
+}
+
+#clock-ticker {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(12em, 100%), 1fr));
+  grid-gap: 1em;
+}
+
+.btn-primary {
+  background-color: #FF0033;
+  border: none;
+  color: white;
+  font-family: Cormorant, serif;
+}
+
+#clock-ticker .block {
+  width: 110px;
+  color: white;
+  position: relative;
+  background: url("../img/rolodex/flip-together.svg") no-repeat center;
+  width: 90px;
+}
+
+#clock-ticker .block .flip {
+  margin-top: 1rem;
+  font-size: 4.5rem;
+  display: block;
+  background-position: center;
+  text-align: center;
+}
+
+#clock-ticker .block .label {
+  color: #fbfbfb;
+  font-size: 1.25rem;
+  text-align: center;
+  text-shadow: 1px 1px 0px #333;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+br {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  br {
+    display: inline;
+  }
+}
+#clock-ticker {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+@media only screen and (min-width: 1440px) {
+  #clock-ticker {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 475px) {
+  #clock-ticker {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0rem;
+    font-size: 4rem;
+    margin: 1rem;
+  }
+}
+/* Social media colours */
+.bg-fb {
+  background-color: transparent;
+  color: #4267B2;
+}
+.bg-fb:hover {
+  color: navy;
+}
+
+.bg-yt {
+  background-color: transparent;
+  color: #c4302b;
+}
+.bg-yt:hover {
+  color: #ff0000;
+}
+
+.bg-ig {
+  background-color: transparent;
+  color: #e4405f;
+}
+.bg-ig:hover {
+  color: #c13584;
+}
+
+.bg-tw {
+  background-color: transparent;
+  color: #1da1f2;
+}
+.bg-tw:hover {
+  color: #4fc5f5;
+}
+
+.bg-wa {
+  background-color: transparent;
+  color: #25D366;
+}
+.bg-wa:hover {
+  color: #02A022;
+}
+
+.bg-envelope {
+  background-color: transparent;
+  color: slategray;
+}
+.bg-envelope:hover {
+  color: #333;
+}
+
+/* Autocomplete styling, also based on W3Schools code. */
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 250px;
+  overflow: scroll;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+
+/* change placeholder text colour */
+::placeholder { /* Chrome/Opera/Safari */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: black;
+}
+
+/*# sourceMappingURL=default.css.map */

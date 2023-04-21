@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Labour are trying to keep foreign criminals in Britain | Conservatives</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- META INFO WILL GO HERE -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./css/default.css"></link>
+</head>
+<body>
+    <main class="bg-hero-image p-5 text-center">
+        <div class="container-fluid py-5">
+          <div class="row">
+          <div class="col-md-10 mx-auto">
+          <h1 class="display-3 fw-bolder text-white text-center text-uppercase"><span id=lab_are>Labour are</span> trying to keep foreign criminals in Britain</h1>
+          <div class="d-inline-flex"><p class="col red-mark fs-4 text-white text-uppercase text-center fw-lighter">Did <span class="fw-bolder" id="mp_name">your MP</span> BLOCK THE DEPORTATION OF <span class="fw-bolder">Foreign murderers</span> and <span class='fw-bolder'>rapists</span>?</p></div>
+          <p class='py-4'></p>
+          <a class="btn btn-primary btn-lg fw-lighter text-uppercase" type="button" href="#scrolltarget">Search now</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section>
+    <div class="mb-4 bg-light rounded-3">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-8 mx-auto text-center" id="scrolltarget">
+            <h2 class="fs-1 pb-3 fw-bolder text-black text-center text-uppercase">On ____, Labour MP<span class="fs-3 fw-bolder">s</span> will vote on our plan to stop the boats.</h2>
+            <p class="fs-2 pb-3 fw-lighter text-black text-center text-uppercase">How has <span>your local Labour MP</span> voted before? Find out below.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto d-flex align-items-center justify-content-center flex-column">
+            <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search by MP" aria-label="Search by MP" id="mp-name-selection">
+            <button class="btn btn-primary" type="button" id="findMP" onclick="findMP()">Search</button>
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search by constituency" name="mp" aria-label="Search by constituency" id="constituency-name-selection" >
+            <button class="btn btn-primary" type="button" onclick="findbyConstituency()" id="findConstituency">Search</button>
+          </div>
+          <p class="fs-5" id="loadresults"></p>
+          <article id="results">
+            
+          </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </section>
+    <section class="my-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md mx-auto text-center">
+            <h2 class="mb-5 text-uppercase display-5 text-black fw-bolder">We are taking action. Labour don't want to.</h2>
+            <p class=" fs-2 mb-5">Keir Starmer is weak and lacks conviction.</p>
+            <p class=" fs-2 mb-5">He has a <a class='fw-bold text-dark' href="https://www.conservatives.com/keirsflipflop">track record</a> of saying one thing and doing another.</p>
+            <p class=" fs-2 mb-5">We <span class='fw-bold'>will</span> stop the boats. We <span class='fw-bold'>will</span> protect our borders.</p>
+            <p class=" fs-2 mb-5">Back our plan to stop the boats.</p>
+            <div class="d-flex justify-content-center flex-column align-items-center ">
+              <a href="#" class="btn btn-lg btn-primary mb-3 fs-1 w-50 text-center font-sans">Back Our Plan</a>
+              <button type="button" class="btn btn-light mb-3 mt-0" data-bs-toggle="modal" data-bs-target="#allData" onclick="allDetails()">
+                View all data
+              </button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <footer class="text-center bg-red">
+    <div class="container d-flex justify-content-center py-4">
+      <a href="https://www.facebook.com/conservatives"><button type="button" class="btn fs-2 bg-fb btn-lg btn-floating mx-2">
+        <i class="fab fa-facebook-f"></i>
+      </button></a>
+      <a href="https://youtube.com/conservatives"><button type="button" class="btn fs-2 bg-yt btn-lg btn-floating mx-2">
+        <i class="fab fa-youtube"></i>
+      </button></a>
+      <a href="https://www.instagram.com/conservatives"><button type="button" class="btn fs-2 bg-ig btn-lg btn-floating mx-2">
+        <i class="fab fa-instagram"></i>
+      </button></a>
+      <a href="https://www.twitter.com/conservatives"><button type="button" class="btn fs-2 bg-tw btn-lg btn-floating mx-2">
+        <i class="fab fa-twitter"></i>
+      </button></a>
+    </div>
+    <!-- Modal -->
+    <div class="modal modal-xl fade" id="allData" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+              <div class="d-block text-start">
+                <h5 class="modal-title" id="modalTitleId">All Results</h5>
+                <p><small>Not everything visible? Scroll across for more information.</small></p>
+              </div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+          <div class="modal-body">
+            <div class="container overflow-scroll" id="">
+              <table class="table table-responsive-md">
+                <thead>
+                    <tr>
+                        <th scope="col" width="25%">Name</th>
+                        <th scope="col" width="40%">Constituency</th>
+                        <th scope="col" width="16%">February 2020?</th>
+                        <th scope="col" width="16%">November 2020?</th>
+                        <th scope="col" width="16%">November 2020?</th>
+                        <th scope="col" width="16%" class="text-end">Amount</th>
+                    </tr>
+                </thead>
+                <tbody id="allDetails">
+                </tbody>
+            </table>
+    
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+      var modalId = document.getElementById('modalId');
+    
+      modalId.addEventListener('show.bs.modal', function (event) {
+          // Button that triggered the modal
+          let button = event.relatedTarget;
+          // Extract info from data-bs-* attributes
+          let recipient = button.getAttribute('data-bs-whatever');
+    
+        // Use above variables to manipulate the DOM
+      });
+    </script>
+    
+    <!-- Copyright -->
+    <div class="text-center text-white p-3 bg-info">
+      <a class="text-white" style="text-decoration:none" href="https://www.conservatives.com/join">Want to help us beat Labour? Join us today ➡️ <span style="text-decoration:underline">www.conservatives.com/join</span></a>
+      <p></p>
+      <p>Promoted by Alan Mabbutt on behalf of the Conservative Party, both at 4 Matthew Parker Street, London, SW1H 9HQ.</p>
+    </div>
+    <!-- Copyright -->
+  </footer>  <!-- Bootstrap JavaScript Libraries -->
+  <script src="../node_modules/@popperjs/core/dist/umd/popper.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+</body>
+
+</html>
