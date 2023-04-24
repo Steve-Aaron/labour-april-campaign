@@ -1,19 +1,39 @@
-// convert h1 { color: red; font-family: 'Montserrat', sans-serif; } to SASS
-
-$font: Cormorant, serif;
+$font: 'Montserrat', Helvetica, sans-serif;
 $primary: white;
 $accent: #FF0033;
+$yellow: #ffff00;
 $font-sans: sans-serif;
 
-
-h1, h2, ul {
-  color: $primary;
+html {
   font-family: $font;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  color: $primary;
+}
+
+@keyframes move-fw {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 2rem 0;
+  }
+}
+
+@keyframes move-rev {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2rem 0;
+  }
 }
 
 p {
   margin: 0;
-  font-family: $font;
 }
 
 i {
@@ -21,7 +41,8 @@ i {
 }
 
 .bg-hero-image {
-  background-image: url("../img/hero-fade.png");
+  // background-image: url("../img/hero.png"); with a black 75% opacity overlay.
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -206,5 +227,27 @@ color: black;
 };
 
 .bg-yellow {
-  background-color: #FFD700;
+  background-color: transparentize($yellow, .25);
+}
+
+// Moving Parts
+
+hr {
+  // style this as a red and yellow diagonally-striped line with a height of 1rem. It repeats itself every 2rem.
+  background: repeating-linear-gradient(45deg, $yellow, $yellow 1rem, $accent 1rem, $accent 2rem);
+  height: 1rem;
+  margin:0;
+  opacity: 1;
+  
+  //&:first-of-type has animation: move-fw  5s linear infinite; the second-of-type has move-rev 5s linear infinite;
+  &:first-of-type {
+    animation: move-fw  5s linear infinite;
+  }
+  &:last-of-type {
+    animation: move-rev 5s linear infinite;
+  }
+}
+
+.hl-anim {
+  display: inline-block;
 }

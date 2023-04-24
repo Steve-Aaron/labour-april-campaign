@@ -2077,7 +2077,12 @@ function displayData(val) {
         output += container[1];
         output += sharer;
         $('#results').html(output);
+    } else {
+      output = `<h3 class='my-3'>${mp.name} has never voted to Stop the Boats because <span class='fst-italic'>Labour Does Not Care</span>.</h3>
+      <p class='mb-3'>Labour have a choice to back our Bill or back criminal gangs. The truth is Labour don't want to stop the boats. Labour want to scrap the Rwanda Partnership, they voted against our tougher immigration laws and even tried to block the deportation of foreign criminals. </p>
+      <p>Labour want unlimited and uncontrolled immigration and cannot be trusted to stop the small boats. When it comes to illegal migration it is clear only the Conservatives are on the side of the British people, which is exactly why stopping the boats is one of our five priorities.</p>`
     }
+    $('#results').html(`<div class='text-center'>${output}</div>`);
 }
 
 $("#mp-name-selection").on('change', function() {
@@ -2248,3 +2253,16 @@ const setName = () => {
 }
 
 setName()
+
+$(document).ready(function() {
+  var n = $(".hl-anim").length;
+  $(".hl-anim").each(function(index) {
+    $(this).css({
+      "position": "relative",
+      "display": "inline-block" // Set display to inline-block
+    });
+    $(this).delay(index * 1000).animate({
+      
+    }, 1000);
+  });
+});

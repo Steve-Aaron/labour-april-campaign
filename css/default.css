@@ -1,11 +1,31 @@
-h1, h2 {
-  color: white;
-  font-family: Montserrat, serif;
+html {
+  font-family: "Montserrat", Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
+h1, h2 {
+  color: white;
+}
+
+@keyframes move-fw {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 2rem 0;
+  }
+}
+@keyframes move-rev {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2rem 0;
+  }
+}
 p {
   margin: 0;
-  font-family: Cormorant, serif;
 }
 
 i {
@@ -13,7 +33,7 @@ i {
 }
 
 .bg-hero-image {
-  background: url(../img/hero.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,7 +58,7 @@ i {
   background-color: #FF0033;
   border: none;
   color: white;
-  font-family: Cormorant, serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
 }
 
 #clock-ticker .block {
@@ -203,8 +223,25 @@ br {
   color: black;
 }
 
-/*# sourceMappingURL=default.css.map */
-
 .bg-yellow {
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.75);
 }
+
+hr {
+  background: repeating-linear-gradient(45deg, #ffff00, #ffff00 1rem, #FF0033 1rem, #FF0033 2rem);
+  height: 1rem;
+  margin: 0;
+  opacity: 1;
+}
+hr:first-of-type {
+  animation: move-fw 5s linear infinite;
+}
+hr:last-of-type {
+  animation: move-rev 5s linear infinite;
+}
+
+.hl-anim {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=default.css.map */
