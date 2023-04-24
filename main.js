@@ -2025,7 +2025,7 @@ function displayData(val) {
       `, `
     </ul>
     <p class="fs-4 text-center">Share this online and make sure your friends know where ${mp.name} stands.</p>
-    <p class="fs-3 my-3 text-uppercase text-center">Share This</p>
+    <p class="fs-3 mt-3 text-uppercase text-center">Share This</p>
     `];
 
     const feb_20_jamaica_text = `
