@@ -21,7 +21,7 @@ i {
 }
 
 .bg-hero-image {
-  background: linear-gradient(to bottom, black, grey);
+  background-image: url("../img/hero-fade.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -204,3 +204,7 @@ color: black;
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: black;
 };
+
+.bg-yellow {
+  background-color: #FFD700;
+}

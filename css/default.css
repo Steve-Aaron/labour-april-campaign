@@ -1,6 +1,6 @@
 h1, h2 {
   color: white;
-  font-family: Cormorant, serif;
+  font-family: Montserrat, serif;
 }
 
 p {
@@ -13,7 +13,7 @@ i {
 }
 
 .bg-hero-image {
-  background: linear-gradient(to bottom, black, grey);
+  background: url(../img/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -204,3 +204,7 @@ br {
 }
 
 /*# sourceMappingURL=default.css.map */
+
+.bg-yellow {
+  background-color: yellow;
+}
