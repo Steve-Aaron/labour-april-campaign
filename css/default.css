@@ -170,6 +170,10 @@ br {
   color: #333;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* Autocomplete styling, also based on W3Schools code. */
 .autocomplete {
   position: relative;

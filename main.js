@@ -20,12 +20,12 @@ const mp_aggreg = [
     "june_22_rwanda": false
   },
   {
-    "name": "Rusanara Ali",
-    "constituency": "#N/A",
-    "firstname": "Rusanara",
+    "name": "Rushanara Ali",
+    "constituency": "Bethnal Green and Bow",
+    "firstname": "Rushanara",
     "lastname": "Ali",
-    "feb_20_jamaica": false,
-    "nov_20_jamaica": false,
+    "feb_20_jamaica": true,
+    "nov_20_jamaica": true,
     "aug_21_zimbabwe": false,
     "june_22_rwanda": false
   },
@@ -110,12 +110,12 @@ const mp_aggreg = [
     "june_22_rwanda": false
   },
   {
-    "name": "Aspana Begum",
-    "constituency": "#N/A",
-    "firstname": "Aspana",
+    "name": "Apsana Begum",
+    "constituency": "Poplar and Limehouse",
+    "firstname": "Apsana",
     "lastname": "Begum",
-    "feb_20_jamaica": false,
-    "nov_20_jamaica": false,
+    "feb_20_jamaica": true,
+    "nov_20_jamaica": true,
     "aug_21_zimbabwe": false,
     "june_22_rwanda": false
   },
@@ -340,10 +340,10 @@ const mp_aggreg = [
     "june_22_rwanda": false
   },
   {
-    "name": "Jon Crudda",
-    "constituency": "#N/A",
+    "name": "Jon Cruddas",
+    "constituency": "Dagenham and Rainham",
     "firstname": "Jon",
-    "lastname": "Crudda",
+    "lastname": "Cruddas",
     "feb_20_jamaica": false,
     "nov_20_jamaica": false,
     "aug_21_zimbabwe": false,
@@ -440,11 +440,11 @@ const mp_aggreg = [
     "june_22_rwanda": false
   },
   {
-    "name": "Tanmanjeet Singh Dhesi",
-    "constituency": "#N/A",
-    "firstname": "Tanmanjeet",
-    "lastname": "Singh Dhesi",
-    "feb_20_jamaica": true,
+    "name": "Tan Dhesi",
+    "constituency": "Slough",
+    "firstname": "Tan",
+    "lastname": "Dhesi",
+    "feb_20_jamaica": false,
     "nov_20_jamaica": false,
     "aug_21_zimbabwe": false,
     "june_22_rwanda": false
@@ -481,7 +481,7 @@ const mp_aggreg = [
   },
   {
     "name": "Rosie Duffield",
-    "constituency": "#N/A",
+    "constituency": "Canterbury",
     "firstname": "Rosie",
     "lastname": "Duffield",
     "feb_20_jamaica": true,
@@ -550,10 +550,10 @@ const mp_aggreg = [
     "june_22_rwanda": false
   },
   {
-    "name": "Bill Esterton",
-    "constituency": "#N/A",
+    "name": "Bill Esterson",
+    "constituency": "Sefton Central",
     "firstname": "Bill",
-    "lastname": "Esterton",
+    "lastname": "Esterson",
     "feb_20_jamaica": false,
     "nov_20_jamaica": false,
     "aug_21_zimbabwe": false,
@@ -600,12 +600,12 @@ const mp_aggreg = [
     "june_22_rwanda": false
   },
   {
-    "name": "Mary Kelly Foy",
-    "constituency": "#N/A",
+    "name": "Mary Foy",
+    "constituency": "City Of Durham",
     "firstname": "Mary",
-    "lastname": "Kelly Foy",
-    "feb_20_jamaica": false,
-    "nov_20_jamaica": false,
+    "lastname": "Foy",
+    "feb_20_jamaica": true,
+    "nov_20_jamaica": true,
     "aug_21_zimbabwe": false,
     "june_22_rwanda": false
   },
@@ -721,7 +721,7 @@ const mp_aggreg = [
   },
   {
     "name": "Paulette Hamilton",
-    "constituency": "#N/A",
+    "constituency": "Birmingham, Erdington",
     "firstname": "Paulette",
     "lastname": "Hamilton",
     "feb_20_jamaica": false,
@@ -871,7 +871,7 @@ const mp_aggreg = [
   },
   {
     "name": "Dan Jarvis",
-    "constituency": "#N/A",
+    "constituency": "Barnsley Central",
     "firstname": "Dan",
     "lastname": "Jarvis",
     "feb_20_jamaica": false,
@@ -951,7 +951,7 @@ const mp_aggreg = [
   },
   {
     "name": "Mike Kane",
-    "constituency": "#N/A",
+    "constituency": "Wythenshawe and Sale East",
     "firstname": "Mike",
     "lastname": "Kane",
     "feb_20_jamaica": false,
@@ -1031,7 +1031,7 @@ const mp_aggreg = [
   },
   {
     "name": "Kim Leadbeater",
-    "constituency": "#N/A",
+    "constituency": "Batley and Spen",
     "firstname": "Kim",
     "lastname": "Leadbeater",
     "feb_20_jamaica": false,
@@ -1080,12 +1080,12 @@ const mp_aggreg = [
     "june_22_rwanda": false
   },
   {
-    "name": "Rebecca Long Bailey",
-    "constituency": "#N/A",
+    "name": "Rebecca Long-Bailey",
+    "constituency": "Salford and Eccles",
     "firstname": "Rebecca",
-    "lastname": "Long Bailey",
-    "feb_20_jamaica": false,
-    "nov_20_jamaica": false,
+    "lastname": "Long-Bailey",
+    "feb_20_jamaica": true,
+    "nov_20_jamaica": true,
     "aug_21_zimbabwe": false,
     "june_22_rwanda": false
   },
@@ -1130,11 +1130,11 @@ const mp_aggreg = [
     "june_22_rwanda": false
   },
   {
-    "name": "Semma Malhotra",
-    "constituency": "#N/A",
-    "firstname": "Semma",
+    "name": "Seema Malhotra",
+    "constituency": "Feltham and Heston",
+    "firstname": "Seema",
     "lastname": "Malhotra",
-    "feb_20_jamaica": false,
+    "feb_20_jamaica": true,
     "nov_20_jamaica": false,
     "aug_21_zimbabwe": false,
     "june_22_rwanda": false
@@ -1161,7 +1161,7 @@ const mp_aggreg = [
   },
   {
     "name": "Steve McCabe",
-    "constituency": "#N/A",
+    "constituency": "Birmingham, Selly Oak",
     "firstname": "Steve",
     "lastname": "McCabe",
     "feb_20_jamaica": true,
@@ -1281,7 +1281,7 @@ const mp_aggreg = [
   },
   {
     "name": "Ed Miliband",
-    "constituency": "#N/A",
+    "constituency": "Doncaster North",
     "firstname": "Ed",
     "lastname": "Miliband",
     "feb_20_jamaica": false,
@@ -1470,9 +1470,9 @@ const mp_aggreg = [
     "june_22_rwanda": false
   },
   {
-    "name": "Jessica Phillips",
-    "constituency": "#N/A",
-    "firstname": "Jessica",
+    "name": "Jess Phillips",
+    "constituency": "Birmingham, Yardley",
+    "firstname": "Jess",
     "lastname": "Phillips",
     "feb_20_jamaica": false,
     "nov_20_jamaica": false,
@@ -1580,10 +1580,10 @@ const mp_aggreg = [
     "june_22_rwanda": false
   },
   {
-    "name": "Bell Ribeiro-addy",
+    "name": "Bell Ribeiro-Addy",
     "constituency": "Streatham",
     "firstname": "Bell",
-    "lastname": "Ribeiro-addy",
+    "lastname": "Ribeiro-Addy",
     "feb_20_jamaica": true,
     "nov_20_jamaica": true,
     "aug_21_zimbabwe": false,
@@ -1601,7 +1601,7 @@ const mp_aggreg = [
   },
   {
     "name": "Matt Rodda",
-    "constituency": "#N/A",
+    "constituency": "Reading East",
     "firstname": "Matt",
     "lastname": "Rodda",
     "feb_20_jamaica": false,
@@ -1830,11 +1830,11 @@ const mp_aggreg = [
     "june_22_rwanda": false
   },
   {
-    "name": "StephenTimms",
-    "constituency": "#N/A",
-    "firstname": "#VALUE!",
-    "lastname": "#VALUE!",
-    "feb_20_jamaica": false,
+    "name": "Stephen Timms",
+    "constituency": "East Ham",
+    "firstname": "Stephen",
+    "lastname": "Timms",
+    "feb_20_jamaica": true,
     "nov_20_jamaica": false,
     "aug_21_zimbabwe": false,
     "june_22_rwanda": false
@@ -1910,20 +1910,20 @@ const mp_aggreg = [
     "june_22_rwanda": false
   },
   {
-    "name": "MattWestern",
-    "constituency": "#N/A",
-    "firstname": "#VALUE!",
-    "lastname": "#VALUE!",
+    "name": "Matt Western",
+    "constituency": "Warwick and Leamington",
+    "firstname": "Matt",
+    "lastname": "Western",
     "feb_20_jamaica": false,
     "nov_20_jamaica": false,
     "aug_21_zimbabwe": false,
     "june_22_rwanda": false
   },
   {
-    "name": "Dr Alan Whitehead",
-    "constituency": "#N/A",
-    "firstname": "Dr",
-    "lastname": "Alan Whitehead",
+    "name": "Alan Whitehead",
+    "constituency": "Southampton, Test",
+    "firstname": "Alan",
+    "lastname": "Whitehead",
     "feb_20_jamaica": false,
     "nov_20_jamaica": false,
     "aug_21_zimbabwe": false,
@@ -1960,12 +1960,12 @@ const mp_aggreg = [
     "june_22_rwanda": false
   },
   {
-    "name": "Mohammed Yasin",
-    "constituency": "#N/A",
-    "firstname": "Mohammed",
+    "name": "Mohammad Yasin",
+    "constituency": "Bedford",
+    "firstname": "Mohammad",
     "lastname": "Yasin",
-    "feb_20_jamaica": false,
-    "nov_20_jamaica": false,
+    "feb_20_jamaica": true,
+    "nov_20_jamaica": true,
     "aug_21_zimbabwe": false,
     "june_22_rwanda": false
   },
@@ -1979,7 +1979,7 @@ const mp_aggreg = [
     "aug_21_zimbabwe": false,
     "june_22_rwanda": false
   }
-]; 
+]
 
 
 function findMP() {
@@ -2018,9 +2018,8 @@ function loadPrompt(name) {
 function displayData(val) {
     let mp = mp_aggreg.find(mp => mp.name == val);
     let output = '';
-    console.log(mp.name + " | " + mp.constituency);
-    let container = [`
-    <p class="my-5 fs-2 fw-bold text-center">${mp.name} has tried to stop the boats before – here's how 👇</p>
+    let container = [`<h3 class='fs-2 mb-3'>${mp.name} has <span class='fw-bold text-decoration-underline'>never</span> voted to Stop the Boats.</h3>
+    <p class="mb-3 fs-2 fw-bold text-center">${mp.name} has even tried to keep foreign criminals in Britain. 👇</p>
     <ul>
       `, `
     </ul>
@@ -2076,11 +2075,30 @@ function displayData(val) {
         }
         output += container[1];
         output += sharer;
+        // make the entire screen flash red over .2 seconds three times. Use jQuery to do so, and create it in a function called 'flashscreen'.
+        function flashscreen() {
+            // create a div with a red background and a height and width of 100% of the screen
+            var flash = $("<div id='flashscreen'></div>").css({
+                "background-color": "red",
+                "height": "500vh",
+                "width": "100vw",
+                "position": "absolute",
+                "top": "0",
+                "left": "0",
+                "z-index": "9999"
+            });
+            // append the div to the second section of the body
+            $("body").append(flash);
+            $("#flashscreen").fadeOut(150).fadeIn(150).fadeOut(200);
+
+        }
+        flashscreen();
         $('#results').html(output);
     } else {
-      output = `<h3 class='my-3'>${mp.name} has never voted to Stop the Boats because <span class='fst-italic'>Labour Does Not Care</span>.</h3>
-      <p class='mb-3'>Labour have a choice to back our Bill or back criminal gangs. The truth is Labour don't want to stop the boats. Labour want to scrap the Rwanda Partnership, they voted against our tougher immigration laws and even tried to block the deportation of foreign criminals. </p>
-      <p>Labour want unlimited and uncontrolled immigration and cannot be trusted to stop the small boats. When it comes to illegal migration it is clear only the Conservatives are on the side of the British people, which is exactly why stopping the boats is one of our five priorities.</p>`
+      output = `<h3 class='my-3'>${mp.name} has <span class='fw-bold text-decoration-underline'>never</span> voted to Stop the Boats.</h3>
+      <p class='mb-3'>Labour have a choice to back our Bill or to back criminal gangs. </p>
+      <p class='mb-3'>But they won’t. The truth is Labour don't want to stop the boats. Labour want to scrap the Rwanda Partnership, they voted against our tougher immigration laws and even tried to block the deportation of foreign criminals.</p>
+      <p>Labour want unlimited and uncontrolled immigration and cannot be trusted to stop the small boats. When it comes to illegal migration it is clear only the Conservatives are on the side of the British people, which is why stopping the boats is one of our five priorities.</p>`
     }
     $('#results').html(`<div class='text-center'>${output}</div>`);
 }
