@@ -1978,13 +1978,23 @@ const mp_aggreg = [
     "nov_20_jamaica": false,
     "aug_21_zimbabwe": false,
     "june_22_rwanda": false
-  }
+  },
+  {
+    "name": "Nadia Whittome",
+    "constituency": "Nottingham East",
+    "firstname": "Nadia",
+    "lastname": "Whittome",
+    "feb_20_jamaica": false,
+    "nov_20_jamaica": false,
+    "aug_21_zimbabwe": false,
+    "june_22_rwanda": false
+  },
 ]
 
 
 function findMP() {
     let s = $("#mp-name-selection").val();
-    $('#loadresults').html('Loading'); 
+    $('#loadresults').html('<span class="pb-3">Loading</span>'); 
     loadPrompt(s);
 }
 
@@ -2011,7 +2021,7 @@ function loadPrompt(name) {
                 return;
             }
         }
-    }, 100);
+    }, 300);
 }
 
 
@@ -2023,7 +2033,7 @@ function displayData(val) {
     <ul>
       `, `
     </ul>
-    <p class="fs-4 text-center">Share this online and make sure your friends know where ${mp.name} stands.</p>
+    <p class="text-center fs-5">Share this online and make sure your friends know where ${mp.name} stands.</p>
     <p class="fs-3 mt-3 text-uppercase text-center">Share This</p>
     `];
 
@@ -2087,10 +2097,10 @@ function displayData(val) {
                 "left": "0",
                 "z-index": "9999"
             });
-            // append the div to the second section of the body
+            // remove all instances of #flashscreen from the DOM
+            $("#flashscreen").remove();
             $("body").append(flash);
             $("#flashscreen").fadeOut(150).fadeIn(150).fadeOut(200);
-
         }
         flashscreen();
         $('#results').html(output);
@@ -2219,31 +2229,6 @@ const constList = [...new Set(mp_aggreg.map(a => a.constituency))];
 autocomplete(document.getElementById("mp-name-selection"), mpList);
 autocomplete(document.getElementById("constituency-name-selection"), constList);
 
-function fullBreakdown(e) {
-document.getElementById("fulldataresults").innerHTML = "";
-let fulldatacol = "";
-let total = 0;
-for (let i = 0; i < mp_aggreg.length; i++) {
-    if (mp_aggreg[i].name === e) {
-      let m = (Math.round(mp_aggreg[i].amount * 100) / 100).toFixed(2);
-        fulldatacol = `
-          <tr id="fulldatacol-${i}">
-            <td>${mp_aggreg[i].name}</td>
-            <td>${mp_aggreg[i].donor_name}</td>
-            <td class="text-end">£${m.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
-          </tr>`;
-        document.getElementById("fulldataresults").innerHTML += fulldatacol;
-        total += mp_aggreg[i].amount * 100;
-    }
-}
-document.getElementById("fulldataresults").innerHTML += `<tr id="total-row">
-    <td><strong>TOTAL</strong></td>
-    <td></td>
-    <td class="text-end" style="font-weight:bold">£${(total / 100).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
-  </tr>`
-};
-
-
 function allDetails() {
 let allDetails = "";
 for (let i = 0; i < mp_aggreg.length; i++) {
@@ -2251,6 +2236,11 @@ for (let i = 0; i < mp_aggreg.length; i++) {
           <tr id="allDetails-${i}">
             <td>${mp_aggreg[i].name}</td>
             <td>${mp_aggreg[i].constituency}</td>
+            <td>${mp_aggreg[i].feb_20_jamaica}</td>
+            <td>${mp_aggreg[i].nov_20_jamaica}</td>
+            <td>${mp_aggreg[i].aug_21_zimbabwe}</td>
+            <td>${mp_aggreg[i].june_22_rwanda}</td>
+            
           </tr>`;
         document.getElementById("allDetails").innerHTML += allDetails;
     }

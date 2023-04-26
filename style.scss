@@ -3,6 +3,7 @@ $primary: white;
 $accent: #FF0033;
 $yellow: #ffff00;
 $font-sans: sans-serif;
+$primary: #eee;
 
 html {
   font-family: $font;
@@ -254,4 +255,31 @@ hr {
 
 .hl-anim {
   display: inline-block;
+}
+
+
+.bg-pearl {
+  background-color: "transparentize($pearl, .25)"
+};
+
+
+// style final section with a background image of ./hero.png
+
+section:last-of-type {
+  background: url('../img/hero-fade-80.png') no-repeat center;
+  // background-cover contain
+  background-size: cover;
+}
+
+a svg:hover {
+  color: lightblue;
+}
+
+a button:active {
+  border: none !important;
+  border-width: none !important;
+}
+
+a.text-dark-emphasis:hover {
+  color: $accent !important;
 }

@@ -5,7 +5,7 @@ html {
 }
 
 h1, h2 {
-  color: white;
+  color: #eee;
 }
 
 @keyframes move-fw {
@@ -57,13 +57,13 @@ i {
 .btn-primary {
   background-color: #FF0033;
   border: none;
-  color: white;
+  color: #eee;
   font-family: "Montserrat", Helvetica, sans-serif;
 }
 
 #clock-ticker .block {
   width: 110px;
-  color: white;
+  color: #eee;
   position: relative;
   background: url("../img/rolodex/flip-together.svg") no-repeat center;
   width: 90px;
@@ -246,6 +246,28 @@ hr:last-of-type {
 
 .hl-anim {
   display: inline-block;
+}
+
+.bg-pearl {
+  background-color: "transparentize($pearl, .25)";
+}
+
+section:last-of-type {
+  background: url("../img/hero-fade-80.png") no-repeat center;
+  background-size: cover;
+}
+
+a svg:hover {
+  color: lightblue;
+}
+
+a button:active {
+  border: none !important;
+  border-width: none !important;
+}
+
+a.text-dark-emphasis:hover {
+  color: #FF0033 !important;
 }
 
 /*# sourceMappingURL=default.css.map */
